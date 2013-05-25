@@ -1,3 +1,70 @@
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif; font-size: 16px; color: #000000; font-weight: 400; 
+} 
+
 .wrapper{
 	padding: 20px;
 }
+
+.tblListing{
+	/*width: 700px;*/
+}
+
+.theadTop{
+	text-align: right;
+}
+
+th{
+	text-align: left;
+}
+
+table, th, td {
+	border: 1px solid #cccccc;
+}
+
+th, td{
+	padding: 15px;
+}
+
+
+
+/*
+Button
+*/
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    text-decoration: none;
+
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.button-link:hover {
+    background: #000009;
+    text-decoration: none;
+}
+
+.btn-red{
+	background-color: red;
+}
+
+.btn-green{
+	background-color: green;
+}
+
+.btn-grey{
+	background-color: #cccccc;
+}
+
+form{
+	margin: 10px;
+}
+label { width: 150px; float: left ; clear: left; margin: 15px; padding: 2px;}
+
+input[type=text], select { width: 200px; float: left; clear: right; margin: 15px; padding: 2px;}
+
+input[type=submit] { float: left; clear: left; margin-left: 200px; }
